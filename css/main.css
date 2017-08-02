@@ -357,26 +357,28 @@ th {
 /*FONTS*/
 h1, h1.dark, h2, h3 {
   font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
-  line-height: 1.3em; }
+  line-height: 1.3em;
+  font-weight: 600; }
 
 h1, h1.dark {
-  font-size: 40px;
-  font-weight: bold; }
+  font-size: 35px;
+  letter-spacing: 1px; }
 
 h1.dark {
-  color: #336699; }
+  color: #1c395a; }
 
 h2 {
   font-weight: bold;
-  font-size: 38px;
-  color: #336699; }
+  font-size: 33px;
+  color: #285281; }
 
 h2.light {
-  font-size: 30px;
+  font-size: 28px;
   color: #fff; }
 
 h3 {
@@ -406,10 +408,10 @@ h3.light {
 
 .dark-button {
   color: #fff;
-  background: #336699; }
+  background: #ed2544; }
 
 .light-button {
-  color: #336699;
+  color: #1c395a;
   background: #fff; }
 
 /*LAYOUT*/
@@ -448,7 +450,7 @@ h3.light {
   margin: auto; }
 
 .border-bottom-red {
-  border-bottom: 4px solid #ed3443; }
+  border-bottom: 4px solid #ed2544; }
 
 .main {
   text-align: center;
@@ -481,10 +483,10 @@ h3.light {
   background-repeat: no-repeat; }
 
 .text-alerts {
-  background-image: url(/img/text-alerts-bg.jpg); }
+  background-image: url(/img/dart-truck2-bg.jpg); }
 
 .search-jobs {
-  background-image: url(/img/search-jobs-bg.jpg); }
+  background-image: url(/img/dart-guy-bg.jpg); }
 
 .logo {
   margin: 10px auto; }
@@ -492,7 +494,7 @@ h3.light {
 /*MEDIA QUERIES*/
 @media (min-width: 767px) {
   h1, h1.dark {
-    font-size: 45px; }
+    font-size: 40px; }
 
   .two-col {
     width: 50%;

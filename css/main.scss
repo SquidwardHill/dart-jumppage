@@ -1,10 +1,11 @@
 @import 'lib/normalize';
 
-$raleway-font-stack: 'Raleway', sans-serif;
+$headline-font-stack: 'Raleway', sans-serif;
 $roboto-font-stack: 'Roboto', sans-serif;
-$blue: #336699;
+$blue: #1c395a;
+$light-blue: #285281;
 $white: #fff;
-$red: #ed3443;
+$red: #ed2544;
 
 /*MIXINS*/
 // Flexbox display
@@ -59,16 +60,19 @@ $red: #ed3443;
 
 /*FONTS*/
 h1, h2, h3 {  
-    font-family: $raleway-font-stack;
+    font-family: $headline-font-stack;
+    text-transform: uppercase;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     line-height:1.3em;
+    font-weight:600;
+    
 }
 h1 {
-    font-size: 40px;
-    font-weight:bold;
+    font-size: 35px;
+    letter-spacing:1px;
 }
 h1.dark {
     @extend h1;
@@ -76,11 +80,11 @@ h1.dark {
 }
 h2 {
     font-weight:bold;
-    font-size:38px;
-    color:$blue;
+    font-size:33px;
+    color:$light-blue;
 }
 h2.light {
-    font-size:30px;
+    font-size:28px;
     color:$white;
 }
 h3 {
@@ -115,7 +119,7 @@ h3.light {
 .dark-button {
     @extend .button;
     color: $white;
-    background: $blue;
+    background: $red;
 }
 .light-button {
     @extend .button;
@@ -161,10 +165,10 @@ h3.light {
     background-repeat: no-repeat;
 }
 .text-alerts {
-   background-image: url(/img/text-alerts-bg.jpg);
+   background-image: url(/img/dart-truck2-bg.jpg);
 }
 .search-jobs {
-    background-image: url(/img/search-jobs-bg.jpg);
+    background-image: url(/img/dart-guy-bg.jpg);
 }
 .logo {
     margin:10px auto;
@@ -172,7 +176,7 @@ h3.light {
 /*MEDIA QUERIES*/
 @media(min-width:767px){
     h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
     .two-col {
         width:50%;
